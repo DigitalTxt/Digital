@@ -1,15 +1,11 @@
 
-function prueba(){
+function mostrar(){
 
-
-  document.getElementById('cover-id').className += " cover1";
-
-
+$("#cover-id").addClass("cover1");
 }
 
-function atras(){
 
-document.getElementById('cover-id').className -= " cover1";
+  function atras(){
 
-
-}
+  $("#cover-id").removeClass("cover1");
+  }
