@@ -97,8 +97,15 @@ footer{background: black; height: 190px; padding-top: 30px;}
 .boton-vervideo-familia{background-color: #ffffff;width: 160px;height: 40px;margin: 0 auto;font-size: 18px;margin-top: 20px;}
 
 
-.contenedor-linear{    width: 80%;height: 8px;background-color: #ffcb18;}
-
+.contenedor-linear{width: 80%;height: 8px;background-color: #ffcb18;}
+.contenedor-linear-fontanar{width: 80%;height: 40px;background-color: #ffcb18;}
+.contenedor-linear-fontanar-2{width: 80%;height: 5px;background-color: #ffcb18;position: absolute;
+    bottom: 30px;}
+.titulo-fontanar{position: absolute;top: -9px; line-height: 30px;padding-left: 18px;}
+.titulo-fontanar-2{line-height: 30px;padding-left: 18px;    padding-top: 40px;position: absolute;
+    bottom: -14px;}
+.contenerdor-secundario-cabina-santa{padding-top: 50px;
+background-color: #f7f7f7;}
 .boton-blog{background-color: #ffffff;width: 170px;height: 40px;margin: 0 auto;font-size: 15px;margin-top: 30px;border: 2px solid #ff3e00;}
 
 .boton-ver-mas-casos{    background-color: #ffcb18;width: 200px;height: 40px;margin: 0 auto;font-size: 18px;margin-top: 30px;margin-bottom: 30px;}
