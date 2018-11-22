@@ -80,6 +80,7 @@ footer{background: black; height: 190px; padding-top: 30px;}
 .container-malo p{color: #9f2cea; padding-left: 5px;}
 
 .boton-miralo{border: 2px solid #fbd35f;background-color: transparent;width: 160px;height: 40px;margin: 0 auto;font-size: 18px;margin-top: 30px;}
+.boton-libro{border: 2px solid #fbd35f;background-color: transparent;width: 220px;height: 40px;margin: 0 auto;font-size: 18px;margin-top: 30px;}
 
 .contenedor-cabina{border-bottom: 2px solid #fbd35f; padding-bottom: 20px;}
 .contenedor-mas-casos{    padding: 25px;background-color: #f7f7f7;}
