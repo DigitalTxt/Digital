@@ -82,6 +82,10 @@ footer{background: black; height: 190px; padding-top: 30px;}
 .boton-miralo{border: 2px solid #fbd35f;background-color: transparent;width: 160px;height: 40px;margin: 0 auto;font-size: 18px;margin-top: 30px;}
 .boton-libro{border: 2px solid #fbd35f;background-color: transparent;width: 220px;height: 40px;margin: 0 auto;font-size: 18px;margin-top: 30px;}
 
+.boton-formulario{border: 2px solid #18e3ff;background-color: #18e3ff;width: 220px;height: 40px;margin: 0 auto;font-size: 18px;margin-top: 30px; color: #ffffff;}
+.boton-formulario2{border: 2px solid #18e3ff;background-color: transparent;width: 220px;height: 40px;font-size: 18px;bottom: 41px;right: 67px;position: absolute;}
+
+.contenedor-trabajar-nosotros{background-color: #a02cea; color: #ffffff;}
 .contenedor-cabina{border-bottom: 2px solid #fbd35f; padding-bottom: 20px;}
 .contenedor-mas-casos{    padding: 25px;background-color: #f7f7f7;}
 .boton-ver-perfil{border: 2px solid #fbd35f;background-color: transparent;width: 140px;height: 35px;margin: 0 auto;font-size: 18px;margin-top: 30px;}
@@ -97,7 +101,10 @@ footer{background: black; height: 190px; padding-top: 30px;}
 .contenedor-perfil4{background-color: #ebebeb;padding-top: 50px;}
 .boton-vervideo-familia{background-color: #ffffff;width: 160px;height: 40px;margin: 0 auto;font-size: 18px;margin-top: 20px;}
 
+.contenedor-formulario{background-color: #000000;color: #ffffff;}
 
+#footer-formulario{background-color: #ffffff;}
+#footer-formulario li.list-inline-item a i,#footer-formulario .footer-text{color: #000000;}
 .contenedor-linear{width: 80%;height: 8px;background-color: #ffcb18;}
 .contenedor-linear-fontanar{width: 80%;height: 40px;background-color: #ffcb18;}
 .contenedor-linear-fontanar-2{width: 80%;height: 5px;background-color: #ffcb18;position: absolute;
