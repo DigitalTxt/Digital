@@ -463,9 +463,15 @@ body {
 --------------------------- */
 
 svg {
-  width: 33%;
-  float: left;
+  width: 60%;
+  position: relative;
+    bottom: 24px;
+    float: right;
+    right: -25px;
 }
+#svgContainer{    height: 45px;
+    position: relative;
+    background-color: #ffcb18;}
 
 .gear-bg ,
 .hammer-bg ,
