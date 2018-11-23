@@ -36,7 +36,12 @@
 			    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
 			    </button>
-		  		<a class="navbar-brand" href="#">Navbar</a>
+		  		<a class="navbar-brand" href="#">
+		  			<?php
+			the_custom_logo();
+				?>
+		
+		  		</a>
 		  		<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
 		  			<?php
 					wp_nav_menu( 
@@ -54,4 +59,4 @@
 	
 <div class="container">
 	<div class="row">
-	<div id="content" class="site-content">
+	<!-- <div id="content" class="site-content"> -->
