@@ -17,7 +17,7 @@ footer{background: black; padding-top: 30px;}
 
 
 /* --------------------------DEMÁS ESTILOS--------------------------- */
-.titulo-principal{text-align: left;; margin-top: 169px; font-size: 22px; padding: 20px;}
+.titulo-principal{text-align: left;; margin-top: 30px; font-size: 22px; padding: 20px;}
 .boton-vervideo{background-color:#ffffff; width: 160px; height: 40px; font-size: 18px; position: relative;}
 .boton-asilohacemos{color:#ffffff; width: 230px; height: 40px; margin: 0 auto; font-size: 18px;position: absolute;bottom: 8%; text-align: center;}
 .fondo2{ width: 100%;height: 100vh;position: absolute; background-color: #1e1e1e;}
@@ -81,25 +81,30 @@ footer{background: black; padding-top: 30px;}
 .boton-ver-mas-casos{background-color: #ffcb18;width: 200px;height: 40px;margin: 0 auto;font-size: 18px;margin-top: 30px;margin-bottom: 30px;}
 .cover{overflow:hidden;width:0px;height:0px;position:relative;margin:auto;transition:all 1000ms;bottom: -50%; background-color: #ffc400;}
 .cover1{width: 100vw;height:100vh;transition:all 500ms; bottom: 0%;}
-.boton-footer{color: #000000;background-color: #ffffff;    margin-bottom: 20px;margin-top: 20px; width: 126px; height: 28px;position: absolute;}
-.boton-footer-abajo{color: #000000;background-color: yellow;    margin-bottom: 20px;margin-top: 20px;width: 126px; height: 28px;position: relative;left: 7px;top: 5px;}
+.boton-footer{color: #000000;background-color: #ffcc00;    margin-bottom: 20px;margin-top: 20px; width: 126px; height: 28px;position: relative;}
+.boton-footer-abajo{color: #000000;background-color: #ffffff;    margin-bottom: 20px;margin-top: 20px;width: 126px; height: 28px;position: absolute;left: 93px;top: 84px;}
+.texto-footer{color:#ffffff;}
+.texto-footer span{color:#ffcc00;  }
 /* --------------------------ESTILOS MOBILE--------------------------- */
 @media only screen and (max-width: 600px)  {
 .clientes {margin: 10px;}
-.ocultar-clientes{display: none;
+.ocultar-clientes{display: none;}
+.boton-vervideo{display: block;;}
+.fondo-imagen{min-height: 100%;width: 300%;height: auto; right: -50%;}
+.div-prueba{position: absolute;height: 100%;overflow: hidden;width: 100%;  }
 }
-
 
 /* --------------------------ESTILOS DESKTOP--------------------------- */
 @media only screen and (min-width: 600px)  {
 .clientes {margin: 10px;}
-.ocultar-clientes{display: block;
+.ocultar-clientes{display: flex;}
+#contenedor-glitch{display: flex;margin-top: 215px;}
+.boton-vervideo{display: none;}
 }
 
 
-
 /* --------------------------EFECTOS GLITCH TRANSMEDIA--------------------------- */
-#contenedor-glitch{ margin: 0 auto;}
+
 .glitch-wrapper {height: 100%;display: flex;justify-content: center;align-items: center;}
 .glitch {color: white;font-size: 80px;text-transform: upercase;position: relative;display: inline-block;}
 .glitch::before,.glitch::after {content: attr(data-text);position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: #cacaca;}

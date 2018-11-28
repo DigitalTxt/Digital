@@ -10,9 +10,6 @@ $("#cover-id").addClass("cover1");
   $("#cover-id").removeClass("cover1");
   }
 
-
-
-
   var num=0;
   window.setInterval(function(){
     num++;
