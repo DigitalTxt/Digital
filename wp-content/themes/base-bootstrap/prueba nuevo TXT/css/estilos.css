@@ -1,5 +1,5 @@
 @font-face {font-family: "HindVadodara-Regular.ttf";src: url("font/HindVadodara-Regular.ttf");}
-body {font-family:HindVadodara-Regular;}
+body {font-family:HindVadodara-Regular; background-color: #1b1b1b;}
 
 
 /* --------------------------ESTILOS GENERALES--------------------------- */
@@ -12,7 +12,7 @@ body {font-family:HindVadodara-Regular;}
 .centrar{text-align: center;margin: 0 auto;}
 .margin0{margin: 0!important;}
 .padding0{padding: 0!important;}
-.fondo-imagen{position: absolute;width: 100%; height: auto;}
+.fondo-imagen{position: absolute;width: 100%; height: auto; min-height: 650px;}
 footer{background: black; padding-top: 30px;}
 
 
@@ -24,7 +24,7 @@ footer{background: black; padding-top: 30px;}
 .fondo3{background-color:#ffffff; }
 .nuestros-clientes{font-size: 50px; margin: 0 auto; color: #000000; text-align: left; padding-top: 50px;}
 .nuestros-clientes span{font-size: 50px; margin: 0 auto; color: #ffcb13;}
-.clientes{ background-color: #f7f7f7;margin: 20px; height: 80px;}
+.clientes{padding: 30px;background-color: #f4f4f4;height: 122px;min-width: 220px;border: 10px solid white;}
 .img-clientes{height: 80px;}
 .contenedor-huella{width: 100vw;height: 100vh; position: relative; }
 .footer-text{ text-align: center;font-size: 10px;color: #ffffff;}
@@ -81,30 +81,51 @@ footer{background: black; padding-top: 30px;}
 .boton-ver-mas-casos{background-color: #ffcb18;width: 200px;height: 40px;margin: 0 auto;font-size: 18px;margin-top: 30px;margin-bottom: 30px;}
 .cover{overflow:hidden;width:0px;height:0px;position:relative;margin:auto;transition:all 1000ms;bottom: -50%; background-color: #ffc400;}
 .cover1{width: 100vw;height:100vh;transition:all 500ms; bottom: 0%;}
-.boton-footer{color: #000000;background-color: #ffcc00;    margin-bottom: 20px;margin-top: 20px; width: 126px; height: 28px;position: relative;}
-.boton-footer-abajo{color: #000000;background-color: #ffffff;    margin-bottom: 20px;margin-top: 20px;width: 126px; height: 28px;position: absolute;left: 93px;top: 84px;}
+.boton-footer{background-color: transparent; border: none;}
 .texto-footer{color:#ffffff;}
 .texto-footer span{color:#ffcc00;  }
 .contenedor-mito-desktop{background-color: #1b1b1b; color: #ffffff;}
 .contenedor-mito-desktop span{color: #ffcc00;}
-.contenedor-resultados{background-color: #ffffff; color: #000000;height: 70px;margin-top: 40px;}
+.contenedor-resultados{background-color: #ffffff; color: #000000;height: 57px;margin-top: 72px;}
 .contenedor-resultados h2{font-size: 61px;margin-left: -16px;}
-.mito-rito{font-size: 49px;color: #ffcc00;}
+.mito-rito{font-size: 61px;color: #ffcc00;}
+.experiencia-usuarios{padding-right: 20px;}
+.contenedor-acercar-marcas{text-align: center; background-color: #FFCA36; height: 60px;}
+.texto-boton{font-size: 22px;left: 270px;color: black;position: absolute;margin-top: 10px;}
+#imagen-boton:hover{background-image: url(../images/boton2.png);    background-repeat: no-repeat;}
+#prueba:hover{opacity: 0;}
+.contenedor-cerebro{height: 768px;}
 /* --------------------------ESTILOS MOBILE--------------------------- */
-@media only screen and (max-width: 600px)  {
-.clientes {margin: 10px;}
+@media only screen and (max-width: 991px)  {
+.clientes {min-width: 210px;}
+
+}
+
+
+@media only screen and (max-width: 767px)  {
+.clientes {height: auto;}
 .ocultar-clientes{display: none;}
 .boton-vervideo{display: block;;}
 .fondo-imagen{min-height: 100%;width: 300%;height: auto; right: -50%;}
-.div-prueba{position: absolute;height: 100%;overflow: hidden;width: 100%;  }
+.div-prueba{position: absolute;height: 100%;overflow: hidden;width: 100%;}
+#contenedor-mito-mobile{display: block;}
+.contenedor-mito-desktop{display: none;}
+.texto-boton {font-size: 22px;left: 30%;}
+.contenedor-acercar-marcas{display: none;}
+.nuestros-clientes { text-align: center;}
+.contenedor-clientes{padding: 0;}
+.contenedor-cerebro{height: 100vh;}
 }
 
 /* --------------------------ESTILOS DESKTOP--------------------------- */
-@media only screen and (min-width: 600px)  {
-.clientes {margin: 10px;}
+@media only screen and (min-width: 768px)  {
+
 .ocultar-clientes{display: flex;}
 #contenedor-glitch{display: flex;margin-top: 215px;}
 .boton-vervideo{display: none;}
+#contenedor-mito-mobile{display: none;}
+.contenedor-mito-desktop{display: block;height: 708px;position: relative;}
+
 }
 
 
