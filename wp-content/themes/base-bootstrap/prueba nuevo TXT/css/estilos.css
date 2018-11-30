@@ -1,4 +1,8 @@
-@font-face {font-family: "HindVadodara-Regular.ttf";src: url("font/HindVadodara-Regular.ttf");}
+@font-face {font-family: "HindVadodara-Regular";src: url("font/HindVadodara-Regular.ttf");}
+@font-face {font-family: "HindVadodara-Bold";src: url("HindVadodara-Bold.ttf");}
+@font-face {font-family: "HindVadodara-Light";src: url("font/HindVadodara-Light.ttf");}
+@font-face {font-family: "HindVadodara-Medium";src: url("font/HindVadodara-Medium.ttf");}
+@font-face {font-family: "HindVadodara-SemiBold";src: url("font/HindVadodara-SemiBold.ttf");}
 body {font-family:HindVadodara-Regular; background-color: #1b1b1b;}
 
 
@@ -13,28 +17,29 @@ body {font-family:HindVadodara-Regular; background-color: #1b1b1b;}
 .margin0{margin: 0!important;}
 .padding0{padding: 0!important;}
 .fondo-imagen{position: absolute;width: 100%; height: auto; min-height: 650px;}
-footer{background: black; padding-top: 30px;}
+footer{background: #151515; padding: 30px;}
 
 
 /* --------------------------DEMÁS ESTILOS--------------------------- */
-.titulo-principal{text-align: left;; margin-top: 30px; font-size: 22px; padding: 20px;}
+.titulo-principal{font-family: HindVadodara-Light; text-align: left;; margin-top: 30px; font-size: 22px; padding: 20px;}
 .boton-vervideo{background-color:#ffffff; width: 160px; height: 40px; font-size: 18px; position: relative;}
-.boton-asilohacemos{color:#ffffff; width: 230px; height: 40px; margin: 0 auto; font-size: 18px;position: absolute;bottom: 8%; text-align: center;}
+.boton-asilohacemos{letter-spacing: 1px;font-family: HindVadodara-bold;color:#ffffff; width: 230px; height: 40px; margin: 0 auto; font-size: 18px;position: absolute;bottom: 8%; text-align: center;}
+.boton-asilohacemos span{color: #ffcb00;font-family: HindVadodara-bold;}
 .fondo2{ width: 100%;height: 100vh;position: absolute; background-color: #1e1e1e;}
 .fondo3{background-color:#ffffff; }
-.nuestros-clientes{font-size: 50px; margin: 0 auto; color: #000000; text-align: left; padding-top: 50px;}
-.nuestros-clientes span{font-size: 50px; margin: 0 auto; color: #ffcb13;}
+.nuestros-clientes{margin: 0 auto; color: #000000; text-align: left; padding-top: 50px;font-family: HindVadodara-bold; font-size: 64px;}
+.nuestros-clientes span{font-family: HindVadodara-bold; font-size: 64px margin: 0 auto; color: #ffcb13;}
 .clientes{padding: 30px;background-color: #f4f4f4;height: 122px;min-width: 220px;border: 10px solid white;}
 .img-clientes{height: 80px;}
 .contenedor-huella{width: 100vw;height: 100vh; position: relative; }
-.footer-text{ text-align: center;font-size: 10px;color: #ffffff;}
-.footer-text a{ text-align: center;font-size: 10px;color: #f1c01e; }
+.footer-text{ text-align: center;font-size: 18px;color: #ffcc00; font-family: HindVadodara-Light;}
+.footer-text a{ text-align: center;font-size: 18px;color: #ffcc00; font-family: HindVadodara-Light; }
 .mr-auto{background-color:#000000; }
 .navbar-light .navbar-nav .nav-link{color: #ffffff;}
 .navbar-light .navbar-toggler {background-color: #ffffff;}
 .navbar-nav .nav-link:hover{    background-color: yellow; color: black;}
-#iconos a{font-size: 30px;  color: #ffffff;}
-.blockquote{margin-top: 20px; padding-bottom: 20px;text-align: left;}
+#iconos a{font-size: 30px;color: #ffcc00;padding: 10px;}
+.blockquote{margin-top: 20px; padding-bottom: 20px;text-align: left;font-family: HindVadodara-Light;}
 .img-rito{width: 100%;}
 #contenedor-rito{background-color:#ffc42b;}
 .mito{text-align: center; font-size: 40px;}
@@ -81,20 +86,26 @@ footer{background: black; padding-top: 30px;}
 .boton-ver-mas-casos{background-color: #ffcb18;width: 200px;height: 40px;margin: 0 auto;font-size: 18px;margin-top: 30px;margin-bottom: 30px;}
 .cover{overflow:hidden;width:0px;height:0px;position:relative;margin:auto;transition:all 1000ms;bottom: -50%; background-color: #ffc400;}
 .cover1{width: 100vw;height:100vh;transition:all 500ms; bottom: 0%;}
-.boton-footer{background-color: transparent; border: none;}
-.texto-footer{color:#ffffff;}
-.texto-footer span{color:#ffcc00;  }
+.boton-footer{background-color: transparent; border: none;height: 52px;width: 291px;padding: 0;	transition: all 0.5s ease;}
+.texto-footer{color:#ffffff;font-family: HindVadodara-bold;font-size: 30px;margin: 0;}
+.texto-footer span{color:#ffcc00;}
+.no-aplica{color:#ffcc00;font-family: HindVadodara-Regular;font-size: 18px;margin-bottom: 60px; }
 .contenedor-mito-desktop{background-color: #1b1b1b; color: #ffffff;}
 .contenedor-mito-desktop span{color: #ffcc00;}
 .contenedor-resultados{background-color: #ffffff; color: #000000;height: 57px;margin-top: 72px;}
-.contenedor-resultados h2{font-size: 61px;margin-left: -16px;}
-.mito-rito{font-size: 61px;color: #ffcc00;}
+.contenedor-resultados h2{font-family: HindVadodara-semibold; font-size: 61px;margin-left: -16px;}
+.mito-rito{font-family: HindVadodara-semibold; font-size: 61px;color: #ffcc00;width: 230px;}
 .experiencia-usuarios{padding-right: 20px;}
-.contenedor-acercar-marcas{text-align: center; background-color: #FFCA36; height: 60px;}
-.texto-boton{font-size: 22px;left: 270px;color: black;position: absolute;margin-top: 10px;}
-#imagen-boton:hover{background-image: url(../images/boton2.png);    background-repeat: no-repeat;}
-#prueba:hover{opacity: 0;}
+.contenedor-acercar-marcas{text-align: center; background-color: #FFCA36; height: 60px;font-family: HindVadodara-bold;}
+.contenedor-acercar-marcas h3{margin: 10px;}
+.texto-boton{font-family:HindVadodara-Bold;font-size: 22px;left: 65px;color: black;position: absolute;margin-top: 5px;z-index: 1;transition: all 0.5s ease;}
+#imagen-boton:hover{background-image: url(../images/boton2.png);    background-repeat: no-repeat;transition: all 0.5s ease; }
+#prueba:hover{opacity: 0;transition: all 0.5s ease;}
+#imagen-boton:hover .texto-boton{left: 75px;margin-top: 17px;transition: all 0.3s ease;}
 .contenedor-cerebro{height: 768px;}
+.contenedor-mito-desktop p{font-family: HindVadodara-Light;}
+.contenedor-flotante-clientes{height: 40px;width: 45%;background-color: #f4f4f4;position: relative;top: 118px;}
+.contenedor-boton{height: 52px;width: 291px;}
 /* --------------------------ESTILOS MOBILE--------------------------- */
 @media only screen and (max-width: 991px)  {
 .clientes {min-width: 210px;}
@@ -110,11 +121,19 @@ footer{background: black; padding-top: 30px;}
 .div-prueba{position: absolute;height: 100%;overflow: hidden;width: 100%;}
 #contenedor-mito-mobile{display: block;}
 .contenedor-mito-desktop{display: none;}
-.texto-boton {font-size: 22px;left: 30%;}
 .contenedor-acercar-marcas{display: none;}
-.nuestros-clientes { text-align: center;}
+.nuestros-clientes { text-align: center;line-height: 60px;}
 .contenedor-clientes{padding: 0;}
 .contenedor-cerebro{height: 100vh;}
+.contenedor-flotante-clientes {height: 40px;width: 65%;background-color: #f4f4f4;position: relative;top: 135px;}
+.texto-footer {font-family: HindVadodara-bold;font-size: 16px;}
+.no-aplica{font-size: 15px;}
+.footer-text {font-size: 13px;}
+.footer-text a {font-size: 13px;}
+.boton-footer {height: 40px;width: 200px;}
+.contenedor-boton{height: 40px;width: 200px;margin-bottom: 24px;}
+.texto-boton {font-size: 18px;left: 48px;}
+#imagen-boton:hover .texto-boton {font-size: 18px;left: 53px;margin-top: 13px;}
 }
 
 /* --------------------------ESTILOS DESKTOP--------------------------- */
@@ -125,6 +144,7 @@ footer{background: black; padding-top: 30px;}
 .boton-vervideo{display: none;}
 #contenedor-mito-mobile{display: none;}
 .contenedor-mito-desktop{display: block;height: 708px;position: relative;}
+
 
 }
 
